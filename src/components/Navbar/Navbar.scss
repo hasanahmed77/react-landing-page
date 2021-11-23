@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+@import '../../App.css';
+
+.navbar {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  h1 {
+    margin-left: 1rem;
+  }
+
+  .links {
+    background-color: $bg-color-primary;
+    margin-top: 1.35rem;
+    margin-right: 1rem;
+
+    img {
+      width: 25%;
+      padding-left: 0.5rem;
+    }
+  }
+}

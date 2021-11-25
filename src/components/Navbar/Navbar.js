@@ -8,11 +8,11 @@ import '../../App.css'
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h1>deep</h1>
+            <h1>Book Library</h1>
             <div className="links">
-                <img src={Facebook} alt="Facebook"/>
+                <img src={Facebook} alt="Facebook" className="facebook"/>
                 <img src={Instagram} alt="Instagram"/>
-                <img src={Twitter} alt="Twitter"/>
+                <img src={Twitter} alt="Twitter" className="twitter"/>
             </div>
         </nav>
     )

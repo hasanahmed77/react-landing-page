@@ -3,24 +3,34 @@
 
 .navbar {
   position: absolute;
-  color: white;
+  color: $font-color-primary;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
 
   h1 {
-    margin-left: 1rem;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 1.5rem;
+    cursor: pointer;
   }
 
   .links {
+    display: flex;
+    justify-content: space-between;
     background-color: $bg-color-primary;
-    margin-top: 1.35rem;
-    margin-right: 1rem;
+    padding-top: 1.3rem;
+    padding-right: 1.5rem;
+    width: 7rem;
 
     img {
-      width: 25%;
-      padding-left: 0.5rem;
+      width: 100%;
+      height: 50%;
+      cursor: pointer;
+    }
+
+    .twitter {
+      padding-left: 0.4rem;
     }
   }
 }

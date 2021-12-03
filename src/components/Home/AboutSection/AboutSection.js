@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutSection.scss';
+import Background from '../../../img/background/bg-2.jpg'
 
 const AboutSection = () => {
     return (
@@ -20,7 +21,7 @@ const AboutSection = () => {
             </div>
 
             <div className="right-side">
-                {/* <img src={} alt="background" className="image-1"/> */}
+                <img src={Background} alt="background" className="image-1"/>
             </div>
         </div>
     )

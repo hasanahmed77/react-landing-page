@@ -1,9 +1,9 @@
+@import '../../../App.css';
 @import '../../../styles/variables.scss';
 
-.portfolio {
+.team {
+  background: $bg-color-primary;
   padding-top: 1rem;
-  color: $font-color-tertiary;
-  background: $bg-color-secondary;
 
   .preheader {
     font-size: 0.8rem;

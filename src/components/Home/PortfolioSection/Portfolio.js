@@ -9,10 +9,10 @@ const Portfolio = () => {
             <p className="preheader">OUR WORKS</p>
             <h1>Portfolio</h1>
             <div className="cards">
-                <Card img={BgImage1} name="Mohammad Joey" body="Serial Killer and Comedian"/>
-                <Card img={BgImage1} name="Dapper Ahmed" body="Politician and Comedian"/>
-                <Card img={BgImage1} name="'KING'" body="King of Zoo"/>
-                <Card img={BgImage1} name="Monkey Man" body="Rapper and Comedian"/>
+                <Card img={BgImage1} showInfo={false} name="Mohammad Joey" body="Serial Killer and Comedian"/>
+                <Card img={BgImage1} showInfo={false} name="Dapper Ahmed" body="Politician and Comedian"/>
+                <Card img={BgImage1} showInfo={false} name="'KING'" body="King of Zoo"/>
+                <Card img={BgImage1} showInfo={false} name="Monkey Man" body="Rapper and Comedian"/>
             </div>
         </div>
     )

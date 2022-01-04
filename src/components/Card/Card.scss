@@ -4,9 +4,38 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 1rem 2rem 3rem;
-  background: $bg-color-primary;
-  color: $font-color-primary;
+  margin: 1rem 3rem 3rem;
+  background: $bg-color-secondary;
+  color: $font-color-tertiary;
+  font-size: 0.9rem;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    text-align: left;
+
+    .info {
+      max-width: 7.5rem;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 2rem;
+      max-width: 4rem;
+
+      img {
+        cursor: pointer;
+        width: 25%;
+      }
+
+      .twitter {
+        padding-left: 0.3rem;
+      }
+    }
+  }
 
   p {
     margin-top: -0.3rem;

@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className="contacts-info">
                     <ContactInfo header="Phones" icon={Phone} body1="0197956884" body2="054503912+"/>
                     <ContactInfo header="Emails" icon={Email} body1="biral@haven.kom" body2="brother@calamari.kom"/>
-                    <ContactInfo header="Address" icon={Phone} body1="0197956884"/>
+                    <ContactInfo header="Address" icon={Address} body1="0197956884"/>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Service from './Service'
 import './Services.scss'
+import Background from '../../../img/background/main2.jpg'
 
 const Services = () => {
     return (
@@ -17,7 +18,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="right-side">
-                <img src="" alt="" />
+                <img src={Background} alt="" />
             </div>
         </div>
     )

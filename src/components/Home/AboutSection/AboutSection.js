@@ -1,12 +1,12 @@
 import React from 'react';
 import './AboutSection.scss';
-import Background from '../../../img/background/bg-2.jpg'
+import Background from '../../../img/background/main4.jpg'
 
 const AboutSection = () => {
     return (
         <div className="about-section">
             <div className="left-side">
-                <p className="preheader">BECOME CREATIVE</p>
+                <p className="preheader">WHO WE ARE</p>
                 <h1>About Us</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

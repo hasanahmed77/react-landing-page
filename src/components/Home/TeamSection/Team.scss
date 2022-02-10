@@ -5,8 +5,30 @@
   background: $bg-color-primary;
   padding-top: 1rem;
 
+  @media (min-width: 1360px) {
+    height: 100vh;
+  }
+
+  .cards {
+    @media (min-width: 1360px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  h1 {
+    @media (min-width: 1360px) {
+      font-size: 4rem;
+    }
+  }
+
   .preheader {
     font-size: 0.8rem;
     font-weight: 400;
+
+    @media (min-width: 1360px) {
+      font-size: 1rem;
+    }
   }
 }

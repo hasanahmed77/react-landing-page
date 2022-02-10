@@ -5,8 +5,30 @@
   color: $font-color-tertiary;
   background: $bg-color-secondary;
 
+  @media (min-width: 1360px) {
+    height: 85vh;
+  }
+
+  .cards {
+    @media (min-width: 1360px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  h1 {
+    @media (min-width: 1360px) {
+      font-size: 4rem;
+    }
+  }
+
   .preheader {
     font-size: 0.8rem;
     font-weight: 400;
+
+    @media (min-width: 1360px) {
+      font-size: 1rem;
+    }
   }
 }

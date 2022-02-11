@@ -136,6 +136,7 @@
   img {
     font-size: 0.8rem;
     width: 10%;
+    object-fit: cover;
     @media (min-width: 1360px) {
       width: 20%;
     }

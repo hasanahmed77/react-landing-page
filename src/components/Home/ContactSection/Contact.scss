@@ -43,6 +43,10 @@
       max-width: 500px;
     }
 
+    @media (min-width: 768px) and (max-width: 1359px) {
+      max-width: 400px;
+    }
+
     ::placeholder {
       color: $font-color-tertiary;
       opacity: 0.7;
@@ -58,12 +62,14 @@
       @media (min-width: 1360px) {
         font-size: 1.3rem;
       }
+      @media (min-width: 768px) {
+        font-size: 1.1rem;
+      }
     }
 
     textarea {
       font-size: 0.8rem;
-      max-width: 294px;
-      min-width: 294px;
+
       max-height: 40vh;
       background: $bg-color-secondary;
       outline: none;
@@ -74,6 +80,14 @@
         min-width: 500px;
         width: 500px;
         max-height: 40vh;
+      }
+      @media (min-width: 768px) and (max-width: 1359px) {
+        max-width: 400px;
+        font-size: 1.1rem;
+      }
+      @media (max-width: 767px) {
+        max-width: 294px;
+        min-width: 294px;
       }
     }
   }

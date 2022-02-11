@@ -64,6 +64,13 @@
     grid-template-columns: auto auto;
     margin-left: 5rem;
   }
+
+  // TAB
+  @media (min-width: 768px) {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .service {
@@ -85,6 +92,11 @@
     margin-left: 5rem;
     width: 7%;
     height: 5%;
+
+    @media (min-width: 768px) {
+      width: 7%;
+      margin-left: 10rem;
+    }
 
     @media (min-width: 1360px) {
       margin: 0;
